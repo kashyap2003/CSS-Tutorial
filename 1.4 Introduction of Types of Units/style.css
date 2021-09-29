@@ -1,0 +1,25 @@
+body 
+{
+    background: linear-gradient(rgb(0, 255, 255), rgba(0, 255, 255, 0)); /* 0= 0% of color and 1=100% of color */
+    font-size: 7mm; /* It will change font size by cm, m, mm,.. etc */
+}
+
+#title
+{
+    color: red;
+}
+
+.subtitle
+{
+    color:rgb(249, 253, 6);
+    background: deepskyblue;
+}
+
+#service-image
+{
+    height: 400pc; /* pc > pt> px */
+    width: 50%; /* He say's ignore it. */
+
+    /* Always input color percentage in increasing order */
+    background: radial-gradient(circle, red 20%, blue 30%, green 35%);
+}

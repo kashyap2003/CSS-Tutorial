@@ -1,0 +1,26 @@
+body 
+{
+    background: cyan;
+}
+
+#title
+{
+    color: red;
+}
+
+.subtitle
+{
+    color:rgb(249, 253, 6);
+    background: deepskyblue;
+}
+
+#service-image
+{
+    height: 400px; /* He say's ignore it. */
+    width: 70%; /* He say's ignore it. */
+
+    background-image: url("img-2.jpg");
+    background-size: cover; /* This will cover the full area od background */ 
+    /* You can also use contain but contain will repeat the img after fully stretching it. */
+
+}

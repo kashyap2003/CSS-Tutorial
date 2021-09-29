@@ -1,0 +1,29 @@
+h2:hover /* This pseudoselector is only applicable for class it won't work for id and style attributes */
+{
+    color: indianred; /* This colour will hover in h2*/
+}
+
+.txt /* class will overwrite the header tags*/
+{
+    color:blue ;
+}
+
+#dot  /* Id will overwrite the class attributes */
+{
+    color: green;
+}
+
+li:only-child  /* This will work on list item's only child  */
+{
+    color: purple;  /* This will give only child purplrcolour */
+}
+
+#google:link /* This will color the google link with black */
+{
+    color: orange;
+}
+
+#google:visited /* This will color the googlr link brown if anyone have already click on link */ 
+{
+    color: brown;
+}

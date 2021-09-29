@@ -1,0 +1,25 @@
+body 
+{
+    background: rgba(0, 255, 255, 0.3); /* 0= 0% of color and 1=100% of color */
+}
+
+#title
+{
+    color: red;
+}
+
+.subtitle
+{
+    color:rgb(249, 253, 6);
+    background: deepskyblue;
+}
+
+#service-image
+{
+    height: 400px; /* He say's ignore it. */
+    width: 70%; /* He say's ignore it. */
+
+    /* It will end color at 200 degree */
+    /* Assume 0° from centre */
+    background: radial-gradient(red, blue, yellow);
+}

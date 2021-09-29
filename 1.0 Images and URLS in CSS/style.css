@@ -1,0 +1,15 @@
+body 
+{
+    background: url("https://cdna.artstation.com/p/assets/images/images/006/186/502/medium/ju-kaery-comprimidakiminonawa.jpg?1496674558");
+}
+
+#title
+{
+    color: red;
+}
+
+.subtitle
+{
+    color:rgb(249, 253, 6);
+    background: deepskyblue;
+}

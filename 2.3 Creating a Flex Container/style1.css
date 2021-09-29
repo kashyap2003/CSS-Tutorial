@@ -1,0 +1,81 @@
+body 
+{
+    font-family: 'Montserrat', sans-serif; /* Imported from google */
+    text-align: justify; /* It will just use single space in line except space between letters */
+    font-size: 1.15em; /* +15% of normal font */
+    background: linear-gradient(rgb(0, 255, 255), rgba(0, 255, 255, 0)); /* 0= 0% of color and 1=100% of color */
+}
+
+#title
+{
+    color: red;
+    font-family: 'Mate SC', sans-serif;  /* Imported from google */
+}
+
+.subtitle
+{
+    color:rgb(249, 253, 6);
+    font-family: 'Mate SC', sans-serif;  /* Imported from google */
+    background: deepskyblue;
+}
+
+#service-image
+{
+    /* vh = View Height, vw = View Width */
+    height: 40vh; /* It will put height 40% of screen/window. It can be more than 100 also. */
+    width: 40vw; /* It will put width 50% of screen/window */
+
+    /* Always input color percentage in increasing order */
+    background: radial-gradient(circle, red 20%, blue 30%, green 35%);
+
+    /* border: size style color */
+    border: 10px double rgb(59, 15, 109);
+
+}
+
+#link
+{
+    /* It just set the link decoration */
+    text-decoration:line-through; /* You can also add underline(default),none,dotted,overline, etc */
+}
+
+.span
+{
+    font-style: italic;
+}
+
+#image
+{
+    height: 260px;
+    width: 42%;
+
+    /* margin: Top_and_Bottom   Right_and_left */
+    margin: 10px 100px;
+
+    float: right;
+}
+
+.table
+{
+    display: inline-block;
+}
+
+.container
+{
+    background: linear-gradient(rgb(0, 255, 255), rgba(0, 255, 255, 0));
+    margin: 10px;
+
+    display: flex;
+}
+
+.container-item
+{
+    background: green;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+    line-height: 50px;
+    width: 70px;
+    margin: 10px;
+}

@@ -1,0 +1,29 @@
+h2:hover /* This pseudoselector is only applicable for class it won't work for id and style attributes */
+{
+    color: indianred; /* This colour will hover in h2*/
+}
+
+.txt /* class will overwrite the header tags*/
+{
+    color:blue ;
+}
+
+#dot  /* Id will overwrite the class attributes */
+{
+    color: green;
+}
+
+li:first-child  /* This will work on list item's 1st child  */
+{
+    color: steelblue;  /* This will give 1st child steelblue colour */
+}
+
+li:last-child /* This will work on list item's last child  */
+{
+    color: fuchsia;  /* This will give last child fuchsia colour */
+}
+
+li:nth-child(2)  /* This will work on every no. list item put in the () */
+{
+    color: orangered;  /* This will give 2nd child orangered colour */
+}

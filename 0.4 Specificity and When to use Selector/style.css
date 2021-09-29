@@ -1,0 +1,14 @@
+h2
+{
+    color: indianred;
+}
+
+.txt /* class will overwrite the header tags*/
+{
+    color:blue ;
+}
+
+#dot  /* Id will overwrite the class attributes */
+{
+    color: green;
+}

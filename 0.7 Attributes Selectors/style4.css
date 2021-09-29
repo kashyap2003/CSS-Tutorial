@@ -1,0 +1,55 @@
+h2:hover /* This pseudoselector is only applicable for class it won't work for id and style attributes */
+{
+    color: greenyellow; /* This colour will hover in h2*/
+}
+
+/* This is an attribute selector and it work same as class */
+h2[class=txt] /* class will overwrite the header tags*/
+{
+    color:orange ;
+}
+
+#dot  /* Id will overwrite the class attributes */
+{
+    color: green;
+}
+
+/*li:only-child  /* This will work on list item's only child  
+{
+    color: purple;  /* This will give only child purplrcolour 
+}
+
+/* #google:link /* This will color the google link with black 
+{
+    color: orange;
+}
+
+#google:visited /* This will color the googlr link brown if anyone have already click on link 
+{
+    color: brown;
+} */
+
+h2 + a
+{
+    color: royalblue;
+}
+
+textarea ~ button /* It will change the color of textarea button */
+{
+    color: darkred;
+}
+
+ul > li /* This is saying every single li inside of ul means every direct child of ul */
+{
+    color: deepskyblue;
+}
+
+img[src^="img/"] /* This will make an solid border on image */ 
+{
+    border: 5px solid black; /* 5px is the width od border and by border-style you can know style */
+}
+
+h2[class|=tdm] /* This will also work same white space attribute selector(~) but it's not working in my system*/
+{
+    background: grey;
+}

@@ -1,0 +1,7 @@
+Class attribute will overwrite header tag
+ID attribute will overwrite Class attribute
+Style attribute will overwrite ID attribute
+
+Sequence: Style > ID > Class > header
+
+Imp: You only supposed to used Id once and classes multiple times.

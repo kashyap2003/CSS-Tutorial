@@ -1,0 +1,15 @@
+body 
+{
+    background: rgb(179, 197, 255);
+}
+
+#title
+{
+    color: red;
+}
+
+.subtitle
+{
+    color:rgb(249, 253, 6);
+    background: deepskyblue;
+}

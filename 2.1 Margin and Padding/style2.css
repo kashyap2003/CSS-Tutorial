@@ -1,0 +1,58 @@
+body 
+{
+    font-family: 'Montserrat', sans-serif; /* Imported from google */
+    text-align: justify; /* It will just use single space in line except space between letters */
+    font-size: 1.15em; /* +15% of normal font */
+    background: linear-gradient(rgb(0, 255, 255), rgba(0, 255, 255, 0)); /* 0= 0% of color and 1=100% of color */
+}
+
+#title
+{
+    color: red;
+    font-family: 'Mate SC', sans-serif;  /* Imported from google */
+}
+
+.subtitle
+{
+    color:rgb(249, 253, 6);
+    font-family: 'Mate SC', sans-serif;  /* Imported from google */
+    background: deepskyblue;
+}
+
+#service-image
+{
+    /* vh = View Height, vw = View Width */
+    height: 40vh; /* It will put height 400% of screen/window. It can be more than 100 also. */
+    width: 40vw; /* It will put width 50% of screen/window */
+
+    /* Always input color percentage in increasing order */
+    background: radial-gradient(circle, red 20%, blue 30%, green 35%);
+
+    /* border: size style color */
+    border: 10px double rgb(59, 15, 109);
+}
+
+#link
+{
+    /* It just set the link decoration */
+    text-decoration:line-through; /* You can also add underline(default),none,dotted,overline, etc */
+}
+
+.span
+{
+    font-style: italic;
+}
+
+#image
+{
+    height: 300px;
+    width: 42%;
+
+    /* border: size style color */
+    border: 10px double rgb(59, 15, 109);
+
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-right: 60px;
+}
